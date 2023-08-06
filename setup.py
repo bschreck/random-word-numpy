@@ -5,8 +5,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Random Word Numpy",
-    version="0.0.2",
+    name="random_word_numpy",
+    version="0.0.1",
     author="Ben Schreck <ben@benschreck.com>",
     author_email="ben@benschreck.com",
     description="This is a simple python package to generate random english words",
