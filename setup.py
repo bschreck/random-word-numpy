@@ -5,16 +5,16 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Random Word",
-    version="1.0.11",
-    author="Vaibhav Singh <hi@vaibhavsingh97.com>",
-    author_email="hi@vaibhavsingh97.com",
+    name="Random Word Numpy",
+    version="0.0.1",
+    author="Ben Schreck <ben@benschreck.com>",
+    author_email="ben@benschreck.com",
     description="This is a simple python package to generate random english words",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
     keywords="package random words word of the day random word generator",
-    url="https://github.com/vaibhavsingh97/random-word",
+    url="https://github.com/bschreck/random-word-numpy",
     python_requires='>=3',
     classifiers=[
         "Programming Language :: Python",
