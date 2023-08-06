@@ -1,6 +1,6 @@
-import secrets
+from numpy.random import choice
 from json import load
-from os.path import abspath, dirname, join
+from os.path import dirname, join
 
 
 class Local(object):
@@ -10,4 +10,9 @@ class Local(object):
     def get_random_word(self):
         with open(self.source) as word_database:
             valid_words = load(word_database)
-        return secrets.choice(list(valid_words.keys()))
+        return choice(list(valid_words.keys()))
+
+    def get_random_words(self, size=None):
+        with open(self.source) as word_database:
+            valid_words = load(word_database)
+        return list(choice(list(valid_words.keys()), size=size))

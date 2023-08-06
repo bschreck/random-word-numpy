@@ -41,13 +41,6 @@ r = RandomWords()
 r.get_random_word()
 ```
 
-Different services are available as a part of the random word package, which fetches random words from various API providers. Please check the `Services` section for more details.
-
-## Services
-
-- [Wordnik][wordnikDocLink]
-- [API Ninjas][apiNinjasDocLink]
-
 ## Development
 
 Assuming that you have [`Python`](https://www.python.org/) and [`pipenv`](https://docs.pipenv.org) installed, set up your environment and install the required dependencies like this instead of the `pip install random-word` defined above:
@@ -56,12 +49,6 @@ Assuming that you have [`Python`](https://www.python.org/) and [`pipenv`](https:
 $ git clone https://github.com/vaibhavsingh97/random-word.git
 $ cd random-word
 $ make init
-```
-
-Add API Key in `random_word` directory defining API Key in `config.yml`. If you don't have an API key, then request your API key [here][wornikWebsiteLink]
-
-```sh
-API_KEY = "<API KEY>"
 ```
 
 To check your desired changes, you can install your package locally.
