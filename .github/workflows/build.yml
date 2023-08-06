@@ -20,17 +20,8 @@ jobs:
     environment:
       name: random word ci
     steps:
-      - uses: actions/checkout@v2
-      - name: Decrypt large secret
-        run: ./.github/scripts/decrypt_secrets.sh
-        env:
-          SECRET_PASSPHRASE: ${{ secrets.SECRET_PASSPHRASE }}
-
-      - name: Copying Config.yml to random_word folder
-        run: cp $HOME/secrets/config.yml random_word/
-
-      - name: Print Directory Structure of random_word
-        run: ls -la random_word
+      - name: Print Directory Structure of random_word_numpy
+        run: ls -la random_word_numpy
 
       - name: Setup Python
         uses: actions/setup-python@v2

@@ -48,4 +48,4 @@ clean:
 	rm -rf .eggs
 
 lint:
-	autopep8 random_word --recursive --in-place --pep8-passes 2000 --verbose
+	autopep8 random_word_numpy --recursive --in-place --pep8-passes 2000 --verbose

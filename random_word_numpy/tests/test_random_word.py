@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from random_word import RandomWords
+from random_word_numpy import RandomWords
 
 
 class TestRandomWord(TestCase):

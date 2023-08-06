@@ -17,8 +17,8 @@ If you love the package, please :star2: the repo.
 You should be able to install using `easy_install` or `pip` in the usual ways:
 
 ```sh
-$ easy_install random-word
-$ pip install random-word
+$ easy_install random-word-numpy
+$ pip install random-word-numpy
 ```
 
 Or clone this repository and run:
@@ -27,14 +27,14 @@ Or clone this repository and run:
 $ python3 setup.py install
 ```
 
-Or place the `random-word` folder that you downloaded somewhere where your scripts can access it.
+Or place the `random-word-numpy` folder that you downloaded somewhere where your scripts can access it.
 
 ## Basic Usage
 
 > 👋 This package will now, by default, fetch the random word from local [database](https://github.com/vaibhavsingh97/random-word/blob/master/random_word/database/words.json)
 
 ```python
-from random_word import RandomWords
+from random_word_numpy import RandomWords
 r = RandomWords()
 
 # Return a single random word
@@ -43,7 +43,7 @@ r.get_random_word()
 
 ## Development
 
-Assuming that you have [`Python`](https://www.python.org/) and [`pipenv`](https://docs.pipenv.org) installed, set up your environment and install the required dependencies like this instead of the `pip install random-word` defined above:
+Assuming that you have [`Python`](https://www.python.org/) and [`pipenv`](https://docs.pipenv.org) installed, set up your environment and install the required dependencies like this instead of the `pip install random-word-numpy` defined above:
 
 ```sh
 $ git clone https://github.com/vaibhavsingh97/random-word.git

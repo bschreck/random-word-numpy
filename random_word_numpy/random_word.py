@@ -1,4 +1,4 @@
-from random_word.services.local import Local
+from random_word_numpy.services.local import Local
 
 
 class RandomWords(object):

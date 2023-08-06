@@ -1,1 +1,1 @@
-include random_word/database/words.json
+include random_word_numpy/database/words.json

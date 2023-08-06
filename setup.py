@@ -1,4 +1,4 @@
-import random_word
+import random_word_numpy
 import setuptools
 
 with open("README.md", "r") as fh:
